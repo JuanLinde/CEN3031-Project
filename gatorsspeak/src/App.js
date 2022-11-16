@@ -1,7 +1,10 @@
-
+import {NavBar, Hero, Features} from './components';
+import "./App.css"
 const App = () => (
-  <div className = "bg-primary w-full overflow-hidden">
-    <h1>Hello, World!</h1>
+  <div className = "page">
+        <NavBar/>
+        <Hero/>
+        <Features/>
   </div>
   )
 
