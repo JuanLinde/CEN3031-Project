@@ -2,3 +2,11 @@
 html {
     background-color: #1D3557;
 }
+
+body {
+    font-family: 'Comic Neue';
+}
+
+p {
+    color: white;
+}

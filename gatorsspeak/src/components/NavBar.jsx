@@ -2,15 +2,16 @@ import React from 'react'
 import {useState} from 'react'
 import {navLinks} from '../constants'
 import {logo} from '../assets'
-import '../NavBar.css'
+import './NavBar.css'
 const NavBar = () => {
   return (
     <nav className='container'>
-      <p className='logo-text'>
-        GatorsSpeak
-      </p>
-      <img src={logo} alt='gatorsspeak' width={80} height={62}> 
-      </img>
+      <div className='logo-and-text'>
+        <div className='logo-text'>
+          <span id='gators'>Gators</span><span id='speak'>Speak</span>
+        </div>
+        <img className='logo' src={logo} alt='gatorsspeak' width={80} height={62}/> 
+      </div>
       <p className='nav-p'>
         Dashboard
       </p>
