@@ -22,3 +22,14 @@
 #speak {
     color: #0085FF;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white; 
+    text-decoration:none; 
+    cursor:pointer;  
+}

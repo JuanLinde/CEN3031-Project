@@ -1,0 +1,39 @@
+
+#features {
+    display: flex;
+    height: 40%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#variety {
+    display: flex;
+    height: 50%;
+    flex-direction: row;
+}
+
+#flags {
+    display: flex;
+    height: 50%;
+    flex-direction: row;
+    height: 50%;
+
+}
+
+#variety-copy {
+    font-size: 71px;
+}
+
+.flag-icon {
+    width: 248px;
+    height: 152;
+}
+
+
+#features-copy {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+

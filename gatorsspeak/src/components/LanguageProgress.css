@@ -1,0 +1,16 @@
+
+.language-progress {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.language-box {
+    display: flex;
+    flex-direction: column;
+}
+.lang-prog-img {
+    width: 92px;
+    height: 56px;
+    margin: auto;
+}

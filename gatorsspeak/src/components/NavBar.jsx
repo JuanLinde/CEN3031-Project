@@ -12,15 +12,11 @@ const NavBar = () => {
         </div>
         <img className='logo' src={logo} alt='gatorsspeak' width={80} height={62}/> 
       </div>
-      <p className='nav-p'>
-        Dashboard
-      </p>
-      <p className='nav-p'>
-        Login
-      </p>
-      <p className='nav-p'>
-        SignUp
-      </p>
+      {navLinks.map((nav, index) => (
+          <a key={nav.id} href={`#${nav.id}`}>
+            {nav.title}
+          </a>
+      ))}
     </nav>
   )
 }
